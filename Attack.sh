@@ -27,7 +27,7 @@ echo '
 X |......XX%,.@      \######/%;\;;;;, /      @#%,XX......| X
 X |.....X  @#%,.@     |######%%;;;;,.|     @#%,.@  X.....| X
 X  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
- X# \.X        @#%,.@   Infect v1.2      @#%,.@        
+ X# \.X        @#%,.@   Rayduan v1.0      @#%,.@        
                 @#%,.@              @#%,.@          
                   @#%,.@          @#%,.@            
                      @#%,.@      @#%,.@             
@@ -82,7 +82,7 @@ echo " "
 echo " "
 echo -e "$grn ＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜$rset"
 echo " "
-echo -e "$cyan            click$grn ENTER$cyan to go back into infect  menu$rset"
+echo -e "$cyan            click$grn ENTER$cyan to go back into Attack  menu$rset"
 echo " "
 read punch
 fi
