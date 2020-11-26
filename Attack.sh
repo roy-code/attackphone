@@ -66,15 +66,15 @@ echo " "
 echo -e "$grn                  Press$ylo ENTER$red to continue$rset"
 echo " "
 read hulke
-cd $HOME/Infect/lol
+cd $HOME/attackphone/letter.txt
 echo " "
 echo -e "$ylo     To terminate the process click$red 't'$ylo or to continue click on$grn ENTER$rset" 
 read choice
 if [ $choice = 't' ] ; then
 echo -e "$red                    Are you sure? Press$grn ENTER$red to exit$rset"
 read hulkee
-cd $HOME/Infect/
-bash infect.sh
+cd $HOME/attackphone/
+bash attack.sh
 else
 bash sysup.sh
 echo
@@ -86,8 +86,8 @@ echo -e "$cyan            click$grn ENTER$cyan to go back into Attack  menu$rset
 echo " "
 read punch
 fi
-cd $HOME/Infect/
-bash infect.sh ;;
+cd $HOME/attackphone/
+bash attack.sh ;;
 2)echo " "
 echo " "
 echo " "
@@ -96,15 +96,15 @@ echo " "
 echo -e "$grn                  Press$ylo ENTER$grn to continue$rset"
 echo " "
 read nitro
-cd $HOME/Infect/lol
+cd $HOME/attackphone/
 echo " "
 echo -e "$ylo         To terminate the process click$red 't' $ylo or to continue click on$grn ENTER$rset"
 read choice
 if [ $choice = 't' ] ; then
 echo -e "$red                   Are you sure? Press$grn ENTER$red to exit$rset"
 read nitroo
-cd $HOME/Infect
-bash infect.sh
+cd $HOME/attackphone
+bash Attack.sh
 else
 bash save.sh
 echo " "
@@ -115,12 +115,12 @@ echo -e "$cyan             click$grn ENTER$cyan to go back into infect  menu$rse
 echo " "
 read punch
 fi
-cd $HOME/Infect
-bash infect.sh ;;
+cd $HOME/attackphone
+bash attack.sh ;;
 3)echo " "
 echo " "
 echo " "
-echo -e "$red             You are going to$grn Update the$red Script$rset "
+echo -e "$red             You are going to$grn Update the$red RoyScript$rset "
 echo " "
 echo -e "$grn                 Press$ylo ENTER$grn to continue$rset"
 echo " "
