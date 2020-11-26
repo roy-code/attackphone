@@ -157,6 +157,6 @@ echo -e "$grn
     (____/ (__) (____)  (____/ (__) (____)...$cyan have a awesome day$rset"
 
 echo "Script Bye Rey "
-echo "$red instagram shrayduan "
-echo "$blue hope you enjoy it "
+echo -e "$red instagram shrayduan "
+echo -e "$blue hope you enjoy it "
 esac
