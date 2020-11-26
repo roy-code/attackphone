@@ -125,15 +125,15 @@ echo " "
 echo -e "$grn                 Press$ylo ENTER$grn to continue$rset"
 echo " "
 read mon
-cd $HOME/Infect/lol
+cd $HOME/attackphone/update.sh
 echo " "
 echo -e "$ylo         To terminate the process click$red 't' $ylo or to continue click on$grn ENTER$rset"
 read choice
 if [ $choice = 't' ] ; then
 echo -e "$red                 Are you sure? Press$grn ENTER$red to exit$rset"
 read monn
-cd $HOME/Infect
-bash infect.sh
+cd $HOME/attackphone
+bash Attack.sh
 else
 bash update.sh
 echo " "
@@ -156,6 +156,6 @@ echo -e "$grn
      ) _ < \  /  )__)    ) _ < \  /  )__)
     (____/ (__) (____)  (____/ (__) (____)...$cyan have a awesome day$rset"
 
-echo " "
+echo "Script Bye Rey "
 echo " "
 esac
