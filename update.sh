@@ -19,33 +19,33 @@ echo " "
 echo " "
 sleep 6.0
 clear
-echo -e "$red                         ChEcKiNg..>$rset"
+echo -e "$red                         ChEcKiNgRoyscript..>$rset"
 sleep 2.0
 clear
-echo -e "$red                         ChEcKiNg...>$rset"
+echo -e "$red                         ChEcKiNgRoyscript...>$rset"
 sleep 2.0
 clear
-echo -e "$red                         ChEcKiNg....>$rset"
+echo -e "$red                         ChEcKiNgRoyscript....>$rset"
 sleep 2.0
 clear
-echo -e "$red                         ChEcKiNg.....>$rset"
+echo -e "$red                         ChEcKiNgRoyscript.....>$rset"
 sleep 2.0
 clear
 echo " "
 echo " "
-echo -e "$grn                updating the infect  please wait$rset"
+echo -e "$grn                updating the Attack  please wait$rset"
 sleep 2.0
 cd $HOME
-rm -rf Infect
-git clone https://github.com/
+rm -rf attackphone
+git clone https://github.com/roy-code/attackphone
 clear
 echo " "
-echo -e "$grn               infect has been updated check it now...$rset"
+echo -e "$grn               ScriptRayduan has been updated check it now...$rset"
 sleep 3.0
 echo " "
 cd $HOME
-cd Infect
-bash Attack.sh
+cd attackphone
+sh Attack.sh
 clear
 sleep 1.0
 
