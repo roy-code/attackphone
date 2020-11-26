@@ -68,9 +68,9 @@ echo " "
 read hulke
 cd $HOME/attackphone/letter.txt
 echo " "
-echo -e "$ylo     To terminate the process click$red 't'$ylo or to continue click on$grn ENTER$rset" 
+echo -e "$ylo     To terminate the process click$red 'ray'$ylo or to continue click on$grn ENTER$rset" 
 read choice
-if [ $choice = 't' ] ; then
+if [ $choice = 'ray' ] ; then
 echo -e "$red                    Are you sure? Press$grn ENTER$red to exit$rset"
 read hulkee
 cd $HOME/attackphone/
@@ -144,10 +144,10 @@ echo -e "$cyan        click$grn ENTER$cyan to go back into Attack  menu$rset"
 echo " "
 read punch
 fi
-cd $HOME/Infect
+cd $HOME/attackphone
 bash Attack.sh ;;
 4)
-sleep 2.0
+sleep 3.0
 clear
 echo " "
 echo -e "$grn
