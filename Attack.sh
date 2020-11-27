@@ -145,12 +145,6 @@ echo " "
 read punch
 cd $HOME/attackphone
 bash Attack.sh ;;
-5)echo " "
-echo " "
-echo -e echo -e "$red              You are going to$grn exploit the$red RoyScript$rset "
-echo -e "$red                     Are you sure? Press$grn ENTER$red to exit$rset"
-read mon
-cd $HOME/attackphone/cmtrix.sh
 4)
 sleep 3.0
 clear
