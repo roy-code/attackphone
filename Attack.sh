@@ -150,8 +150,7 @@ echo " "
 echo -e echo -e "$red              You are going to$grn exploit the$red RoyScript$rset "
 echo -e "$red                     Are you sure? Press$grn ENTER$red to exit$rset"
 read mon
-cd $HOME/attackphone/
-bash cmatrix.sh
+cd $HOME/attackphone/cmtrix.sh
 4)
 sleep 3.0
 clear
