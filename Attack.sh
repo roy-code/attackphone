@@ -49,9 +49,9 @@ echo " "
 echo -e "$red                        ➡$cyan [1️⃣] ATTACK VICTIM"
 echo -e "$red                        ➡$cyan [2️⃣] SAVE"
 echo -e "$red                        ➡️$cyan [3️⃣] Update script"
-echo -e "$red                        ➡$cyan [4️⃣] EXIT"
-echo " "
-echo " "
+echo -e "$red                         ➡$cyan [4️⃣] EXIT"
+echo -e "$blue                        ➡$cyan [5️⃣] install matrix "
+echo " "install matrix "
 echo -e "$grn               >＞＞＞＞＞$ylo [SELECT]$grn ＜＜＜＜＜<$rset"
 echo " "
 echo -e "$cyan                   [[[$ylo Select any option$cyan]]]$rset"
@@ -143,9 +143,15 @@ echo " "
 echo -e "$cyan        click$grn ENTER$cyan to go back into Attack  menu$rset"
 echo " "
 read punch
-fi
 cd $HOME/attackphone
 bash Attack.sh ;;
+5)echo " "
+echo " "
+echo -e echo -e "$red              You are going to$grn exploit the$red RoyScript$rset "
+echo -e "$red                     Are you sure? Press$grn ENTER$red to exit$rset"
+read mon
+cd $HOME/attackphone/
+bash cmatrix.sh
 4)
 sleep 3.0
 clear
